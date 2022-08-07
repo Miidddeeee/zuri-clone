@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.firstSection{
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.thumb{
+  width: 70px;
+  height: 70px;
+  margin-right: 150px;
+}
+
+.thatImage{
+  z-index: -1;
+}
+.heroBut{
+  border: 1px solid red;
+  color: red;
+}
+.heroBut:hover{
+  background-color: red;
+  color:white
+}
+.addred{
+  color: red;
+}
+.social img{
+  width:20px;
+  height: 20px;
+}
+
+.thatImg img{
+  width: 60px;
+  background-color: red;
+  border-radius: 100%;
+  border: 10px solid red;
+}
+.thatA  button{
+  background-color: red; 
+  padding: 10px 10px;
+  border-radius: 0px 100px 100px 0px;
+  color: white;
+  white-space: nowrap;
+  overflow:hidden;
+}.thatClass{
+  display: flex;
+  align-items: center;
+}
+.thatA{
+  margin-left: -20px;
+}.thatImg{
+  width: 70px;
+}
+.mh{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+
+.boy{
+  width: 25%;
+}.fifty{
+  width: 50%;
+}
+.addwhite{
+  color:white
+}
+.whitebg{
+  background-color: white;
+}
+.whiteout{
+  border: 3px solid white;
+}
+.cardshadow{
+  box-shadow: 1px  1px 15px rgb(243, 164, 164);
+}
+.w-32\%{
+  width: 20%;
+}
+.cardshadow:hover{
+  transition: -webkit-transform .3s ease!important;
+  transition: transform .3s ease!important;
+  transition: transform .3s ease,-webkit-transform .3s;
+  -webkit-transform: translateY(-15px)!important;
+    transform: translateY(-15px)!important;
+
+}
+
+.show{
+  display: none;
+}
+.pointer{
+  cursor: pointer;
+}
+.black-bg{
+  background-color: #1b1a20;
+}.whitebg{
+  background-color: white;
+}
